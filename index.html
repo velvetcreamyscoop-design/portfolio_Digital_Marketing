@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -46,7 +47,8 @@
       background: rgba(15, 14, 28, 0.98);
     }
 
-    .navbar-brand, .nav-link {
+    .navbar-brand,
+    .nav-link {
       color: #fff !important;
       font-weight: 500;
       position: relative;
@@ -93,7 +95,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: 
+      background:
         radial-gradient(circle at 20% 80%, rgba(108, 99, 255, 0.15) 0%, transparent 50%),
         radial-gradient(circle at 80% 20%, rgba(255, 101, 132, 0.1) 0%, transparent 50%);
     }
@@ -178,7 +180,7 @@
     .card {
       border: none;
       border-radius: 25px;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
       transition: all 0.4s ease;
       background: white;
       height: 100%;
@@ -201,7 +203,8 @@
       box-shadow: 0 30px 70px rgba(108, 99, 255, 0.2);
     }
 
-    .card h5, .card h6 {
+    .card h5,
+    .card h6 {
       color: var(--dark);
       font-weight: 600;
     }
@@ -303,164 +306,202 @@
 
     /* Floating animation for visual interest */
     @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-15px); }
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-15px);
+      }
     }
 
     .floating {
       animation: float 6s ease-in-out infinite;
     }
+
     /* Responsive adjustments */
     @media (max-width: 768px) {
       .hero {
         padding: 150px 0 100px;
       }
-      
+
       .hero h1 {
         font-size: 2.5rem;
       }
-      
+
       .section-wrapper {
         padding: 50px 25px;
         border-radius: 20px;
       }
-      
+
       .cta-box {
         padding: 50px 25px;
       }
     }
   </style>
 </head>
+
 <body>
 
 
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="#">Aswini Rayudu</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-      <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navMenu">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#social">Social</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Aswini Rayudu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#social">Social</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Hero -->
-<section class="hero text-center">
-  <div class="container position-relative">
-    <h1 class="display-5 fw-bold floating">Aswini Rayudu</h1>
-    <p class="lead mt-3">Helping brands grow online through strategy, creativity, and data-driven marketing</p>
-    <!-- <a href="#contact" class="btn btn-warning btn-lg rounded-pill px-5 mt-4"><i class="fas fa-rocket me-2"></i>Hire Me</a> -->
-  </div>
-</section>
+  <!-- Hero -->
+  <section class="hero text-center">
+    <div class="container position-relative">
+      <h1 class="display-5 fw-bold floating">Aswini Rayudu</h1>
+      <p class="lead mt-3">Helping brands grow online through strategy, creativity, and data-driven marketing</p>
+      <!-- <a href="#contact" class="btn btn-warning btn-lg rounded-pill px-5 mt-4"><i class="fas fa-rocket me-2"></i>Hire Me</a> -->
+    </div>
+  </section>
 
-<!-- About -->
-<section id="about" class="container section-wrapper">
-  <div class="text-center">
-    <!-- <div class="section-highlight"><i class="fas fa-user me-2"></i>Introduction</div> -->
-    <h2 class="section-title">About Me</h2>
-    <p class="col-lg-8 mx-auto">I am a passionate digital marketing professional with experience in SEO, social media marketing, paid ads, content creation, and brand growth. I focus on delivering measurable results and building strong online presence for businesses.</p>
-  </div>
-</section>
+  <!-- About -->
+  <section id="about" class="container section-wrapper">
+    <div class="text-center">
+      <!-- <div class="section-highlight"><i class="fas fa-user me-2"></i>Introduction</div> -->
+      <h2 class="section-title">About Me</h2>
+      <p class="col-lg-8 mx-auto">I am a passionate digital marketing professional with experience in SEO, social media
+        marketing, paid ads, content creation, and brand growth. I focus on delivering measurable results and building
+        strong online presence for businesses.</p>
+    </div>
+  </section>
 
-<!-- Skills -->
-<section id="skills" class="container section-wrapper">
-  <div class="text-center">
-    <!-- <div class="section-highlight"><i class="fas fa-star me-2"></i>Expertise</div> -->
-    <h2 class="section-title">Skills</h2>
-    <div class="mt-4">
-      <span class="badge-skill"><i class="fas fa-search me-2"></i>SEO</span>
-      <span class="badge-skill"><i class="fas fa-hashtag me-2"></i>Social Media Marketing</span>
-      <span class="badge-skill"><i class="fab fa-google me-2"></i>Google Ads</span>
-      <span class="badge-skill"><i class="fab fa-facebook me-2"></i>Facebook Ads</span>
-      <span class="badge-skill"><i class="fas fa-pen-nib me-2"></i>Content Marketing</span>
-      <span class="badge-skill"><i class="fas fa-envelope me-2"></i>Email Marketing</span>
-      <span class="badge-skill"><i class="fas fa-chart-bar me-2"></i>Analytics & Reporting</span>
+  <!-- Skills -->
+  <section id="skills" class="container section-wrapper">
+    <div class="text-center">
+      <!-- <div class="section-highlight"><i class="fas fa-star me-2"></i>Expertise</div> -->
+      <h2 class="section-title">Skills</h2>
+      <div class="mt-4">
+        <span class="badge-skill"><i class="fas fa-search me-2"></i>SEO</span>
+        <span class="badge-skill"><i class="fas fa-hashtag me-2"></i>Social Media Marketing</span>
+        <span class="badge-skill"><i class="fab fa-google me-2"></i>Google Ads</span>
+        <span class="badge-skill"><i class="fab fa-facebook me-2"></i>Facebook Ads</span>
+        <span class="badge-skill"><i class="fas fa-pen-nib me-2"></i>Content Marketing</span>
+        <span class="badge-skill"><i class="fas fa-envelope me-2"></i>Email Marketing</span>
+        <span class="badge-skill"><i class="fas fa-chart-bar me-2"></i>Analytics & Reporting</span>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Services -->
-<section id="services" class="container section-wrapper">
-  <div class="text-center mb-5">
-    <!-- <div class="section-highlight"><i class="fas fa-briefcase me-2"></i>What I Do</div> -->
-    <h2 class="section-title">Services</h2>
-  </div>
-  <div class="row g-4">
-    <div class="col-md-4">
-      <div class="card p-4 text-center">
-        <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
-          <i class="fas fa-chart-line"></i>
+  <!-- Services -->
+  <section id="services" class="container section-wrapper">
+    <div class="text-center mb-5">
+      <!-- <div class="section-highlight"><i class="fas fa-briefcase me-2"></i>What I Do</div> -->
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h5>SEO Optimization</h5>
+          <p>Improve website ranking and organic traffic with proven SEO strategies.</p>
         </div>
-        <h5>SEO Optimization</h5>
-        <p>Improve website ranking and organic traffic with proven SEO strategies.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
+            <i class="fas fa-users"></i>
+          </div>
+          <h5>Social Media Marketing</h5>
+          <p>Grow your brand and engagement across social media platforms.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
+            <i class="fas fa-users"></i>
+          </div>
+          <h5>Social Media Marketing</h5>
+          <p>Grow your brand and engagement across social media platforms.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
+          <i class="fas fa-globe"></i>
+          </div>
+          <h5>Website Creation</h5>
+          <p>Grow your brand and engagement across social media platforms.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
+            <i class="fas fa-ad"></i>
+          </div>
+          <h5>Content Marketing</h5>
+          <p>High-converting Google and social media ad campaigns.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-4 text-center">
+          <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h5>brand Promotion</h5>
+          <p>High-converting Google and social media ad campaigns.</p>
+        </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card p-4 text-center">
-        <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
-          <i class="fas fa-users"></i>
-        </div>
-        <h5>Social Media Marketing</h5>
-        <p>Grow your brand and engagement across social media platforms.</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card p-4 text-center">
-        <div class="icon-wrapper mb-3" style="font-size: 2.5rem; color: var(--primary);">
-          <i class="fas fa-ad"></i>
-        </div>
-        <h5>Paid Advertising</h5>
-        <p>High-converting Google and social media ad campaigns.</p>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- Social -->
-<section id="social" class="container section-wrapper">
-  <div class="text-center mb-5">
-    <!-- <div class="section-highlight"><i class="fas fa-share-alt me-2"></i>Connect</div> -->
-    <h2 class="section-title">Social Media Presence</h2>
-  </div>
-  <div class="row g-4 justify-content-center text-center">
-    <div class="col-md-2 col-6">
-      <div class="card p-4">
-        <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #E4405F;">
-          <i class="fab fa-instagram"></i>
-        </div>
-        <h6>Instagram</h6>
-        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
-      </div>
+  <!-- Social -->
+  <section id="social" class="container section-wrapper">
+    <div class="text-center mb-5">
+      <!-- <div class="section-highlight"><i class="fas fa-share-alt me-2"></i>Connect</div> -->
+      <h2 class="section-title">Social Media Presence</h2>
     </div>
-    <div class="col-md-2 col-6">
-      <div class="card p-4">
-        <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #1877F2;">
-          <i class="fab fa-facebook"></i>
+    <div class="row g-4 justify-content-center text-center">
+      <div class="col-md-2 col-6">
+        <div class="card p-4">
+          <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #E4405F;">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <h6>Instagram</h6>
+          <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
         </div>
-        <h6>Facebook</h6>
-        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
       </div>
-    </div>
-    <div class="col-md-2 col-6">
-      <div class="card p-4">
-        <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #1DA1F2;">
-          <i class="fab fa-twitter"></i>
+      <div class="col-md-2 col-6">
+        <div class="card p-4">
+          <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #1877F2;">
+            <i class="fab fa-facebook"></i>
+          </div>
+          <h6>Facebook</h6>
+          <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
         </div>
-        <h6>Twitter</h6>
-        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
       </div>
-    </div>
-    <div class="col-md-2 col-6">
+      <div class="col-md-2 col-6">
+        <div class="card p-4">
+          <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #1DA1F2;">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <h6>Twitter</h6>
+          <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
+        </div>
+      </div>
+      <!-- <div class="col-md-2 col-6">
       <div class="card p-4">
         <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #0A66C2;">
           <i class="fab fa-linkedin"></i>
@@ -468,64 +509,65 @@
         <h6>LinkedIn</h6>
         <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
       </div>
-    </div>
-    <div class="col-md-2 col-6">
-      <div class="card p-4">
-        <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #FF0000;">
-          <i class="fab fa-youtube"></i>
-        </div>
-        <h6>YouTube</h6>
-        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Contact -->
-<section id="contact" class="container section-wrapper">
-  <div class="cta-box text-center">
-    <h2 class="fw-bold mb-4">Contact Information</h2>
-    <div class="row justify-content-center g-4">
-      <div class="col-md-4">
-        <div class="card p-4 text-center">
-          <div class="icon-wrapper mb-3" style="font-size: 2rem; color: var(--accent);">
-            <i class="fas fa-envelope"></i>
+    </div> -->
+      <div class="col-md-2 col-6">
+        <div class="card p-4">
+          <div class="icon-wrapper mb-3" style="font-size: 2rem; color: #FF0000;">
+            <i class="fab fa-youtube"></i>
           </div>
-          <h6>Email</h6>
-          <p class="mb-0">velvetcreamyscoop@gmail.com</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card p-4 text-center">
-          <div class="icon-wrapper mb-3" style="font-size: 2rem; color: var(--accent);">
-            <i class="fas fa-globe"></i>
-          </div>
-          <h6>Website</h6>
-          <a href="#" class="text-decoration-none">www.velvetcreamyscoop.com</a>
+          <h6>YouTube</h6>
+          <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2">Visit</a>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Footer -->
-<footer class="py-4 text-center mt-5">
-  <div class="container">
-    <p class="mb-0">© 2026 Aswini Rayudu | Digital Marketing Portfolio</p>
-  </div>
-</footer>
+  <!-- Contact -->
+  <section id="contact" class="container section-wrapper">
+    <div class="cta-box text-center">
+      <h2 class="fw-bold mb-4">Contact Information</h2>
+      <div class="row justify-content-center g-4">
+        <div class="col-md-4">
+          <div class="card p-4 text-center">
+            <div class="icon-wrapper mb-3" style="font-size: 2rem; color: var(--accent);">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h6>Email</h6>
+            <p class="mb-0">velvetcreamyscoop@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4 text-center">
+            <div class="icon-wrapper mb-3" style="font-size: 2rem; color: var(--accent);">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h6>Website</h6>
+            <a href="#" class="text-decoration-none">www.velvetcreamyscoop.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Footer -->
+  <footer class="py-4 text-center mt-5">
+    <div class="container">
+      <p class="mb-0">© 2026 Aswini Rayudu | Digital Marketing Portfolio</p>
+    </div>
+  </footer>
 
-<script>
-  
-  // Add floating animation to some elements on page load
-  document.addEventListener('DOMContentLoaded', () => {
-    const cards = document.querySelectorAll('.card');
-    cards.forEach((card, index) => {
-      card.style.animationDelay = `${index * 0.1}s`;
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+
+    // Add floating animation to some elements on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('.card');
+      cards.forEach((card, index) => {
+        card.style.animationDelay = `${index * 0.1}s`;
+      });
     });
-  });
-</script>
+  </script>
 </body>
+
 </html>
